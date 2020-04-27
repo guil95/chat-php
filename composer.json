@@ -1,0 +1,20 @@
+{
+    "name": "guil95/chat-php",
+    "description": "Chat with ReactPHP socket's",
+    "authors": [
+        {
+            "name": "Guilherme Henrique Rodrigues",
+            "email": "guilhermerodriguestb@gmail.com"
+        }
+    ],
+    "require": {
+        "react/socket": "^1.4.0",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "Tests\\": "tests"
+        }
+    }
+}
